@@ -1,0 +1,514 @@
+text,label
+帮我记录一下今天的会议内容,meeting
+开始录音做会议纪要,meeting
+帮我总结刚才开的会,meeting
+会议上讨论了哪些重点,meeting
+record the meeting now,meeting
+meeting notes please,meeting
+帮我录一下音,meeting
+开始会议记录了,meeting
+take meeting minutes,meeting
+把会议内容整理一下,meeting
+准备开会了,meeting
+帮我记录并总结等一下的会议,meeting
+帮我录下等一下的会议录音,meeting
+把会议内容整理总结一下,meeting
+我要记录一下这个会议,meeting
+把这段中文翻译成英文,translation
+帮我翻译一下这个文件,translation
+英译中,translation
+translate this to Chinese,translation
+润色一下这段话,translation
+把这段话改写一下,translation
+帮我翻成英文,translation
+这段英文什么意思,translation
+翻译成中文,translation
+翻译一下,translation
+帮我翻译,translation
+中译英,translation
+这段话翻译成中文,translation
+翻成日语,translation
+帮我写一封英文邮件,translation
+做一个关于AI的PPT,ppt
+帮我生成一个产品介绍的简报,ppt
+准备一个10页的演示文稿,ppt
+create a presentation about ML,ppt
+科技风的PPT大纲,ppt
+做个简报,ppt
+下载PPT文件,ppt
+帮我做一份slides,ppt
+presentation slides about tech,ppt
+生成一份商务风的演示文稿,ppt
+帮我做一个公司介绍的幻灯片,ppt
+准备明天汇报用的PPT,ppt
+做一个路演PPT,ppt
+帮我生成一份教学用的演示文稿,ppt
+做一份产品发布简报,ppt
+帮我把这篇文章总结一下,summary
+这个文档太长了提炼要点,summary
+summarize this document,summary
+给我一个简短的摘要,summary
+这篇文章的核心观点是什么,summary
+帮我概括一下,summary
+文档摘要,summary
+太长不看给我总结,summary
+make a summary of this,summary
+用三句话总结这篇文章,summary
+总结一下,summary
+帮我提炼要点,summary
+这篇文章讲了什么,summary
+做摘要,summary
+文件摘要,summary
+帮我从会议记录中提取待办事项,todo
+列出需要做的事情,todo
+extract action items from this,todo
+这周要完成哪些任务,todo
+帮我整理一个任务清单,todo
+有什么待办,todo
+把要做的事情列出来,todo
+提取任务列表,todo
+show me my todos,todo
+今天要做什么,todo
+提醒我明天交报告,todo
+记得买牛奶,todo
+帮我记一下明天要开会,todo
+别忘了周五的deadline,todo
+帮我设置提醒,todo
+帮我调研一下Transformer架构,research
+研究一下竞争对手的产品,research
+做一份市场分析报告,research
+research the latest AI trends,research
+深度调研这个行业,research
+帮我查一下这个技术的最新进展,research
+分析一下这个市场,research
+做竞品分析,research
+search for recent papers on ML,research
+调研报告,research
+帮我做一个行业研究,research
+调研一下最新的AI发展趋势,research
+分析一下这个行业的竞争格局,research
+帮我找一些关于深度学习的论文,research
+做一份市场调研报告,research
+帮我写一封请假邮件,email
+给老板写个邮件,email
+写一封英文商务邮件,email
+write an email to client,email
+帮我起草一份通知,email
+生成一份正式公文,email
+写邮件,email
+写个报告,email
+写一封感谢信,email
+回复客户的邮件,email
+帮我写个周报邮件,email
+起草一份内部通知,email
+写一封辞职信,email
+帮我回复这封邮件,email
+帮我写邮件通知,email
+设置25分钟番茄钟,pomodoro
+开始专注模式,pomodoro
+start pomodoro timer,pomodoro
+番茄钟30分钟,pomodoro
+计时25分钟,pomodoro
+开始番茄,pomodoro
+pomodoro 25 min,pomodoro
+设置一个番茄钟,pomodoro
+帮我计时,pomodoro
+开始工作计时,pomodoro
+设个15分钟的番茄,pomodoro
+专注45分钟,pomodoro
+开启番茄工作法,pomodoro
+设个计时器,pomodoro
+番茄工作法计时,pomodoro
+帮我生成一个思维导图,mindmap
+做个脑图,mindmap
+create a mind map,mindmap
+画个思维导图,mindmap
+整理成思维导图,mindmap
+生成脑图,mindmap
+把这个做成思维导图,mindmap
+mind map from this,mindmap
+知识结构图,mindmap
+做个知识图谱,mindmap
+画个结构图,mindmap
+帮我梳理一下思路,mindmap
+思维导图,mindmap
+做脑图,mindmap
+帮我整理知识结构,mindmap
+帮我分析一下这个数据,data
+数据分析,data
+analyze this dataset,data
+上传一个CSV分析,data
+帮我看看这个表格,data
+数据可视化,data
+分析Excel数据,data
+data analysis,data
+这个数据有什么规律,data
+帮我做数据分析,data
+看看这个CSV文件,data
+分析销售数据,data
+统计一下这个表格,data
+数据洞察,data
+帮我处理数据,data
+打开智能表格,spreadsheet
+上传表格处理,spreadsheet
+open spreadsheet,spreadsheet
+表格操作,spreadsheet
+帮我处理这个Excel,spreadsheet
+智能表格,spreadsheet
+用AI处理表格,spreadsheet
+spreadsheet AI,spreadsheet
+上传一个Excel处理,spreadsheet
+表格数据分析,spreadsheet
+处理CSV文件,spreadsheet
+打开表格工具,spreadsheet
+用自然语言操作表格,spreadsheet
+表格AI,spreadsheet
+表格问数,spreadsheet
+帮我写周报,weekly_report
+生成周报,weekly_report
+weekly report,weekly_report
+这周工作总结,weekly_report
+自动生成周报,weekly_report
+写本周周报,weekly_report
+generate weekly report,weekly_report
+周报,weekly_report
+帮我总结这周的工作,weekly_report
+提交周报,weekly_report
+写工作总结,weekly_report
+本周工作汇报,weekly_report
+上周周报,weekly_report
+生成工作周报,weekly_report
+整理本周工作内容,weekly_report
+帮我规划一下这个项目,task_planning
+拆解任务,task_planning
+task planning,task_planning
+项目计划,task_planning
+帮我做任务分解,task_planning
+规划项目进度,task_planning
+任务规划,task_planning
+分解WBS,task_planning
+帮我排一下任务优先级,task_planning
+项目时间规划,task_planning
+制定项目计划,task_planning
+任务排期,task_planning
+规划一下sprint,task_planning
+工作分解,task_planning
+帮我拆分工作,task_planning
+分析一下这张图片,image-analyzer
+帮我看看这张图,image-analyzer
+图片分析,image-analyzer
+analyze this image,image-analyzer
+识别图片内容,image-analyzer
+图像分析,image-analyzer
+这张图片里有什么,image-analyzer
+帮我识别图中的文字,image-analyzer
+分析一下这张照片,image-analyzer
+图片识别,image-analyzer
+上传图片分析,image-analyzer
+看看这张图是什么,image-analyzer
+帮我分析图片色彩,image-analyzer
+图像内容识别,image-analyzer
+这张图是什么风格,image-analyzer
+帮我生成一个图表,chart-generator
+画个柱状图,chart-generator
+生成图表,chart-generator
+create a chart,chart-generator
+数据可视化图表,chart-generator
+做个饼图,chart-generator
+画个折线图,chart-generator
+做个散点图,chart-generator
+帮我可视化这些数据,chart-generator
+生成一个柱状图,chart-generator
+图表生成,chart-generator
+generate chart,chart-generator
+画个数据图,chart-generator
+帮我做个图表,chart-generator
+数据画图,chart-generator
+对比这两个文档,doc-compare
+文档对比,doc-compare
+compare documents,doc-compare
+文件对比一下,doc-compare
+这两个文件有什么区别,doc-compare
+对比两份合同,doc-compare
+文档差异分析,doc-compare
+文件比较,doc-compare
+diff documents,doc-compare
+看看这两份文档哪里不一样,doc-compare
+文件差异对比,doc-compare
+对比两份报告的差异,doc-compare
+文档比对,doc-compare
+查看文档修改内容,doc-compare
+比对文件差异,doc-compare
+帮我阅读多个来源的信息,multi-source
+多源阅读,multi-source
+multi source reading,multi-source
+整合多个文件的信息,multi-source
+多源信息综合,multi-source
+综合阅读,multi-source
+read multiple sources,multi-source
+多文件综合,multi-source
+多文档综合阅读,multi-source
+交叉阅读多个来源,multi-source
+帮我综合几个文档的内容,multi-source
+多源分析,multi-source
+合併閱讀多個檔案,multi-source
+整合信息,multi-source
+综合多个来源,multi-source
+问一下知识库里的文档,rag-qa
+知识库问答,rag-qa
+knowledge base QA,rag-qa
+基于文档回答,rag-qa
+知识库查询,rag-qa
+查一下知识库,rag-qa
+ask the knowledge base,rag-qa
+文档问答,rag-qa
+问我上传的文档,rag-qa
+知识库搜索,rag-qa
+检索知识库,rag-qa
+search my documents,rag-qa
+查文档,rag-qa
+根据我上传的文件回答,rag-qa
+问文档,rag-qa
+帮我提取名片信息,info-extraction
+从文档中提取关键信息,info-extraction
+信息提取,info-extraction
+extract information from this,info-extraction
+提取合同里的关键条款,info-extraction
+parse this business card,info-extraction
+识别文档中的日期和金额,info-extraction
+extract structured data,info-extraction
+帮我从PDF提取文字,info-extraction
+提取信息,info-extraction
+文本信息提取,info-extraction
+从这份文件中提取数据,info-extraction
+OCR识别,info-extraction
+提取文档结构化信息,info-extraction
+帮我整理提取关键数据,info-extraction
+帮我把这个报告转成表格,table_generator
+从报告中提取数据生成表格,table_generator
+生成一个CSV表格,table_generator
+把这篇报告变成结构化数据,table_generator
+提取关键数字做成表格,table_generator
+帮我把这些数据整理成表格,table_generator
+generate a table from this report,table_generator
+extract data into CSV format,table_generator
+把调研结果转成表格,table_generator
+帮我把这些信息整理成Excel表格,table_generator
+数据提取成表格,table_generator
+表格生成,table_generator
+帮我做一个数据表格,table_generator
+提取报告中的财务数据做成表,table_generator
+把报告整理成数据表格,table_generator
+帮我把这些信息表格化,table_generator
+从文章中提取数据生成表,table_generator
+提取关键指标做成表格,table_generator
+convert this report to a CSV table,table_generator
+帮我做数据提取和表格化,table_generator
+先翻译成中文然后润色,translation
+英翻中,translation
+把这份文件翻译成中文,translation
+翻譯一下這篇文章,translation
+帮我翻成日文,translation
+帮我做一个10页的科技风PPT,ppt
+帮我生成一份演示文稿,ppt
+create a slide deck,ppt
+需要一份产品介绍的slides,ppt
+准备一份汇报用的简报,ppt
+把文档总结一下,summary
+帮我总结这篇文章的要点,summary
+summarize the key points,summary
+提炼这篇文章的核心内容,summary
+给我一个简洁的摘要,summary
+提醒我下午三点开会,todo
+帮我记一下要买的东西,todo
+别忘了明天要交周报,todo
+add a todo item for me,todo
+create a task reminder,todo
+调研一下新能源汽车市场,research
+分析一下人工智能行业的发展,research
+帮我做一个竞品研究,research
+调研最近的技术趋势,research
+研究一下这个领域的论文,research
+帮我写邮件给客户,email
+帮我起草一封英文邮件,email
+write a professional email,email
+帮我写一封感谢邮件,email
+回复客户的邮件,email
+设置30分钟番茄,pomodoro
+开始一个番茄工作时段,pomodoro
+start a focus session,pomodoro
+开启专注模式25分钟,pomodoro
+帮我设一个计时器,pomodoro
+把这个做成思维导图,mindmap
+帮我整理成知识图谱,mindmap
+画一个思维导图出来,mindmap
+生成知识结构图,mindmap
+create a knowledge map,mindmap
+分析一下这份数据,data
+上传数据帮我分析,data
+帮我看看这个数据表,data
+做一份数据分析报告,data
+analyze the data for me,data
+上传这个Excel到智能表格,spreadsheet
+用表格处理数据,spreadsheet
+处理一下这个CSV,spreadsheet
+表格工具打开,spreadsheet
+use spreadsheet AI,spreadsheet
+帮我生成周报,weekly_report
+这周工作总结一下,weekly_report
+write a weekly summary,weekly_report
+帮我写本周的周报,weekly_report
+提交工作周报,weekly_report
+帮我拆分一下工作任务,task_planning
+规划一下开发sprint,task_planning
+帮我做项目计划,task_planning
+任务分解一下,task_planning
+plan the project tasks,task_planning
+看看这张图有什么,image-analyzer
+分析一下这个图片内容,image-analyzer
+上传图片帮我分析,image-analyzer
+what is in this image,image-analyzer
+识别这张照片,image-analyzer
+给我画个图表,chart-generator
+生成一个数据可视化图,chart-generator
+make a bar chart,chart-generator
+帮我可视化这些数字,chart-generator
+create a pie chart,chart-generator
+比较一下这两个文件,doc-compare
+这两个文档有什么不同,doc-compare
+文档差异对比,doc-compare
+对比两份文件的内容,doc-compare
+diff these two documents,doc-compare
+综合多个文件的信息,multi-source
+帮我阅读这些文档,multi-source
+read and synthesize multiple sources,multi-source
+多文件综合分析,multi-source
+整合几个来源的信息,multi-source
+问一下我上传的文档,rag-qa
+查询知识库,rag-qa
+search my knowledge base,rag-qa
+基于上传文件回答问题,rag-qa
+文档问答,rag-qa
+帮我从文档提取信息,info-extraction
+识别名片上的信息,info-extraction
+提取这份合同的关键数据,info-extraction
+从PDF中提取文字,info-extraction
+extract data from document,info-extraction
+pdf转word,file_converter
+word转pdf,file_converter
+文件格式转换,file_converter
+把这个PDF转成Word文档,file_converter
+convert pdf to docx,file_converter
+帮我转换文件格式,file_converter
+pdf转docx,file_converter
+docx转pdf,file_converter
+文件转换,file_converter
+把word转成pdf,file_converter
+xlsx转csv,file_converter
+csv转excel,file_converter
+convert file format,file_converter
+把这个文件转一下格式,file_converter
+帮我添加到待办列表,todo_add
+把待办事项加进去,todo_add
+add to todo list,todo_add
+把这些任务加到我的待办里,todo_add
+添加到任务列表,todo_add
+帮我加到待办,todo_add
+加入待办清单,todo_add
+add these to my tasks,todo_add
+帮我记录到待办列表,todo_add
+加到todolist,todo_add
+确认添加到待办,todo_add
+把这些加到任务列表里,todo_add
+添加任务,todo_add
+添加待办,todo_add
+合并PDF文件,pdf_toolkit
+帮我提取PDF文字,pdf_toolkit
+拆分这个PDF文档,pdf_toolkit
+extract text from PDF,pdf_toolkit
+PDF文字提取,pdf_toolkit
+帮我合并这几个PDF,pdf_toolkit
+把PDF拆分页面,pdf_toolkit
+merge pdf files,pdf_toolkit
+PDF文件处理,pdf_toolkit
+帮我从PDF提取内容,pdf_toolkit
+pdf toolkit,pdf_toolkit
+PDF工具,pdf_toolkit
+把两个PDF合在一起,pdf_toolkit
+从PDF中提取文字内容,pdf_toolkit
+帮我从PDF里面提取文字,pdf_toolkit
+分析一下这段话的情感,sentiment_analyzer
+情感分析,sentiment_analyzer
+看看这个评论是正面还是负面,sentiment_analyzer
+sentiment analysis,sentiment_analyzer
+帮我分析这段文字的情绪,sentiment_analyzer
+analyze sentiment of this text,sentiment_analyzer
+检测用户反馈的情感,sentiment_analyzer
+判断这段话的态度,sentiment_analyzer
+情感判断,sentiment_analyzer
+这段客户评论是好评还是差评,sentiment_analyzer
+分析邮件情感倾向,sentiment_analyzer
+文本情绪分析,sentiment_analyzer
+看看这条反馈是积极还是消极,sentiment_analyzer
+is this review positive or negative,sentiment_analyzer
+分析社交媒体评论情感,sentiment_analyzer
+帮我帮我记录一下今天的会议内容,meeting
+帮我记录一下今天的会议内容谢谢,meeting
+帮我开始录音做会议纪要,meeting
+开始录音做会议纪要谢谢,meeting
+帮我帮我总结刚才开的会,meeting
+帮我总结刚才开的会谢谢,meeting
+帮我会议上讨论了哪些重点,meeting
+会议上讨论了哪些重点谢谢,meeting
+帮我record the meeting now,meeting
+record the meeting now谢谢,meeting
+帮我meeting notes please,meeting
+meeting notes please谢谢,meeting
+帮我帮我录一下音,meeting
+帮我录一下音谢谢,meeting
+帮我开始会议记录了,meeting
+开始会议记录了谢谢,meeting
+帮我take meeting minutes,meeting
+take meeting minutes谢谢,meeting
+帮我把会议内容整理一下,meeting
+把会议内容整理一下谢谢,meeting
+帮我准备开会了,meeting
+准备开会了谢谢,meeting
+帮我帮我记录并总结等一下的会议,meeting
+帮我记录并总结等一下的会议谢谢,meeting
+帮我帮我录下等一下的会议录音,meeting
+帮我录下等一下的会议录音谢谢,meeting
+帮我把会议内容整理总结一下,meeting
+把会议内容整理总结一下谢谢,meeting
+帮我我要记录一下这个会议,meeting
+我要记录一下这个会议谢谢,meeting
+帮我把这个网页内容抓取下来,web_scraper
+抓取网页内容,web_scraper
+提取这个链接的文章,web_scraper
+scrape this website,web_scraper
+帮我爬取这个页面的文字,web_scraper
+网页抓取,web_scraper
+提取URL内容,web_scraper
+fetch content from URL,web_scraper
+帮我读取这个网页,web_scraper
+网页内容提取,web_scraper
+抓取文章内容,web_scraper
+爬虫提取文字,web_scraper
+从网页提取内容,web_scraper
+web scraping,web_scraper
+网页正文抓取,web_scraper
+生成一个二维码,qr_generator
+做个二维码,qr_generator
+generate a QR code,qr_generator
+帮我生成QR码,qr_generator
+把这段文字转成二维码,qr_generator
+二维码生成,qr_generator
+create QR code,qr_generator
+做个QR,qr_generator
+生成QR图片,qr_generator
+QR code for this link,qr_generator
+帮我制作二维码,qr_generator
+制作QR码,qr_generator
+把链接转成二维码,qr_generator
+QR码生成,qr_generator
+生成一个二维码图片,qr_generator

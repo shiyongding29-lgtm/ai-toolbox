@@ -1,0 +1,14 @@
+node_modules/
+__pycache__/
+*.pyc
+*.wav
+*.mp3
+uploads/meetings/
+uploads/*.png
+uploads/*.pdf
+worker-toolbox/backend/data/
+worker-toolbox/backend/uploads/
+.DS_Store
+.env
+models/*/model.safetensors
+models/*/pytorch_model.bin

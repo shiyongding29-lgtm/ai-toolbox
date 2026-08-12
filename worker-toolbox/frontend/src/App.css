@@ -1,0 +1,11 @@
+/* ── App-level styles ── */
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Ant Design dark mode base */
+body.ant-app-dark {
+  background-color: #141414;
+  color: rgba(255, 255, 255, 0.85);
+}

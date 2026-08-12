@@ -1,0 +1,386 @@
+text,label
+生成一个柱状图,single_tool
+generate chart,single_tool
+帮我生成一个图表,single_tool
+帮我做个图表,single_tool
+做个饼图,single_tool
+帮我可视化这些数据,single_tool
+生成图表,single_tool
+画个柱状图,single_tool
+数据画图,single_tool
+数据可视化图表,single_tool
+看看这个CSV文件,single_tool
+统计一下这个表格,single_tool
+帮我分析一下这个数据,single_tool
+这个数据有什么规律,single_tool
+帮我做数据分析,single_tool
+分析Excel数据,single_tool
+分析销售数据,single_tool
+上传一个CSV分析,single_tool
+数据洞察,single_tool
+数据分析,single_tool
+文档对比,single_tool
+文档比对,single_tool
+这两个文件有什么区别,single_tool
+文件差异对比,single_tool
+查看文档修改内容,single_tool
+文件比较,single_tool
+文档差异分析,single_tool
+文件对比一下,single_tool
+compare documents,single_tool
+对比这两个文档,single_tool
+写一封英文商务邮件,single_tool
+写个报告,single_tool
+帮我回复这封邮件,single_tool
+帮我写一封请假邮件,single_tool
+起草一份内部通知,single_tool
+帮我写个周报邮件,single_tool
+生成一份正式公文,single_tool
+回复客户的邮件,single_tool
+写一封辞职信,single_tool
+write an email to client,single_tool
+上传图片分析,single_tool
+分析一下这张照片,single_tool
+识别图片内容,single_tool
+图片识别,single_tool
+这张图是什么风格,single_tool
+图像内容识别,single_tool
+分析一下这张图片,single_tool
+图像分析,single_tool
+图片分析,single_tool
+帮我识别图中的文字,single_tool
+提取合同里的关键条款,single_tool
+信息提取,single_tool
+extract structured data,single_tool
+帮我提取名片信息,single_tool
+识别文档中的日期和金额,single_tool
+从这份文件中提取数据,single_tool
+文本信息提取,single_tool
+帮我从PDF提取文字,single_tool
+OCR识别,single_tool
+从文档中提取关键信息,single_tool
+帮我录下等一下的会议录音,single_tool
+meeting notes please,single_tool
+把会议内容整理总结一下,single_tool
+帮我我要记录一下这个会议,single_tool
+帮我帮我总结刚才开的会,single_tool
+会议上讨论了哪些重点,single_tool
+会议上讨论了哪些重点谢谢,single_tool
+我要记录一下这个会议谢谢,single_tool
+帮我帮我记录并总结等一下的会议,single_tool
+帮我帮我录一下音,single_tool
+画个结构图,single_tool
+做个脑图,single_tool
+画个思维导图,single_tool
+mind map from this,single_tool
+帮我梳理一下思路,single_tool
+思维导图,single_tool
+生成脑图,single_tool
+知识结构图,single_tool
+把这个做成思维导图,single_tool
+做个知识图谱,single_tool
+多源阅读,single_tool
+综合多个来源,single_tool
+帮我综合几个文档的内容,single_tool
+整合信息,single_tool
+多文件综合,single_tool
+综合阅读,single_tool
+多文档综合阅读,single_tool
+多源信息综合,single_tool
+整合多个文件的信息,single_tool
+帮我阅读多个来源的信息,single_tool
+设置一个番茄钟,single_tool
+开始工作计时,single_tool
+设置25分钟番茄钟,single_tool
+帮我计时,single_tool
+计时25分钟,single_tool
+设个计时器,single_tool
+开始专注模式,single_tool
+专注45分钟,single_tool
+开始番茄,single_tool
+start pomodoro timer,single_tool
+帮我生成一个产品介绍的简报,single_tool
+准备一个10页的演示文稿,single_tool
+帮我做一份slides,single_tool
+科技风的PPT大纲,single_tool
+presentation slides about tech,single_tool
+做一份产品发布简报,single_tool
+做一个关于AI的PPT,single_tool
+帮我做一个公司介绍的幻灯片,single_tool
+下载PPT文件,single_tool
+生成一份商务风的演示文稿,single_tool
+查文档,single_tool
+知识库问答,single_tool
+知识库搜索,single_tool
+search my documents,single_tool
+知识库查询,single_tool
+问一下知识库里的文档,single_tool
+检索知识库,single_tool
+文档问答,single_tool
+查一下知识库,single_tool
+ask the knowledge base,single_tool
+做一份市场分析报告,single_tool
+分析一下这个市场,single_tool
+深度调研这个行业,single_tool
+调研报告,single_tool
+研究一下竞争对手的产品,single_tool
+分析一下这个行业的竞争格局,single_tool
+做一份市场调研报告,single_tool
+帮我调研一下Transformer架构,single_tool
+research the latest AI trends,single_tool
+search for recent papers on ML,single_tool
+表格数据分析,single_tool
+用AI处理表格,single_tool
+打开表格工具,single_tool
+表格操作,single_tool
+智能表格,single_tool
+表格问数,single_tool
+上传一个Excel处理,single_tool
+表格AI,single_tool
+处理CSV文件,single_tool
+spreadsheet AI,single_tool
+总结一下,single_tool
+这篇文章讲了什么,single_tool
+用三句话总结这篇文章,single_tool
+make a summary of this,single_tool
+帮我提炼要点,single_tool
+给我一个简短的摘要,single_tool
+文档摘要,single_tool
+太长不看给我总结,single_tool
+帮我概括一下,single_tool
+文件摘要,single_tool
+任务排期,single_tool
+项目时间规划,single_tool
+任务规划,single_tool
+制定项目计划,single_tool
+规划一下sprint,single_tool
+帮我规划一下这个项目,single_tool
+task planning,single_tool
+帮我排一下任务优先级,single_tool
+工作分解,single_tool
+拆解任务,single_tool
+帮我从会议记录中提取待办事项,single_tool
+提取任务列表,single_tool
+有什么待办,single_tool
+帮我整理一个任务清单,single_tool
+今天要做什么,single_tool
+把要做的事情列出来,single_tool
+show me my todos,single_tool
+列出需要做的事情,single_tool
+别忘了周五的deadline,single_tool
+帮我设置提醒,single_tool
+中译英,single_tool
+润色一下这段话,single_tool
+翻译一下,single_tool
+帮我翻译,single_tool
+把这段话改写一下,single_tool
+帮我写一封英文邮件,single_tool
+translate this to Chinese,single_tool
+英译中,single_tool
+翻成日语,single_tool
+这段话翻译成中文,single_tool
+自动生成周报,single_tool
+上周周报,single_tool
+写本周周报,single_tool
+周报,single_tool
+本周工作汇报,single_tool
+生成周报,single_tool
+帮我写周报,single_tool
+写工作总结,single_tool
+这周工作总结,single_tool
+帮我总结这周的工作,single_tool
+帮我记录会议并总结生成思维导图然后提取待办,multi_tool
+记录会议，然后总结，最后做个脑图并提取待办事项,multi_tool
+把今天的会议录下来，总结完做个思维导图，把待办事项提出来,multi_tool
+会议记录并总结然后画个思维导图再提取所有待办,multi_tool
+录个会议，总结后生成脑图，再帮我列出所有action items,multi_tool
+"record the meeting, summarize it, make a mind map and extract todos",multi_tool
+record meeting then generate summary and mindmap and extract action items,multi_tool
+记录会议之后做思维导图再提取待办,multi_tool
+帮我录会议然后做一个脑图，把待办也提出来,multi_tool
+会议记录完了做思维导图然后整理任务清单,multi_tool
+记录会议并总结然后提取待办事项,multi_tool
+录会议，总结一下，再把待办任务列出来,multi_tool
+帮我做会议记录并总结然后提醒我有什么要做的,multi_tool
+记录会议然后做个总结,multi_tool
+录会议并生成会议总结,multi_tool
+翻译这段话然后写一封邮件回复,multi_tool
+把这个翻译成英文然后给客户写封回复邮件,multi_tool
+先翻译再写邮件,multi_tool
+translate this and then write an email,multi_tool
+把这份文件翻译后写一封商务邮件,multi_tool
+翻译后帮我起草一封邮件通知,multi_tool
+调研AI发展趋势然后做一个PPT,multi_tool
+帮我调研这个行业然后生成一份简报,multi_tool
+研究一下竞品然后做一份10页的演示文稿,multi_tool
+depth research on this topic and make a presentation,multi_tool
+调研最新技术趋势然后做成幻灯片,multi_tool
+做竞品分析然后生成一份科技风的PPT,multi_tool
+调研这个行业然后总结做成PPT,multi_tool
+先调研再总结然后生成简报,multi_tool
+调研后写一份分析报告邮件,multi_tool
+research and write an email report,multi_tool
+做市场调研然后给老板写一封汇报邮件,multi_tool
+先总结这篇文章然后做成思维导图,multi_tool
+把这份文档总结后生成脑图,multi_tool
+summarize and make a mind map,multi_tool
+总结这篇文章然后帮我梳理成知识结构图,multi_tool
+总结这个文档并提取待办事项,multi_tool
+摘要后帮我列出需要做的事情,multi_tool
+总结这篇文章然后做思维导图再提取待办,multi_tool
+先总结再画思维导图最后整理任务清单,multi_tool
+分析这个数据然后生成可视化图表,multi_tool
+先做数据分析再画柱状图,multi_tool
+analyze this data and generate a chart,multi_tool
+上传这个表格帮我做分析然后生成图表,multi_tool
+分析销售数据然后画个折线图,multi_tool
+数据分析后生成饼图,multi_tool
+看看这个表格然后帮我可视化数据,multi_tool
+先分析数据再画图,multi_tool
+上传表格分析然后生成图表,multi_tool
+用智能表格处理数据然后画图,multi_tool
+翻译这篇文章然后总结一下,multi_tool
+先翻译再总结,multi_tool
+translate then summarize,multi_tool
+先生成PPT大纲然后总结要点,multi_tool
+做简报之后把关键点总结出来,multi_tool
+写封邮件把待办事项也列进去,multi_tool
+写邮件并把任务清单附上,multi_tool
+调研后做一个思维导图,multi_tool
+研究这个领域然后画知识结构图,multi_tool
+做行业调研然后生成脑图,multi_tool
+先做思维导图再生成PPT,multi_tool
+画个脑图然后做成简报,multi_tool
+规划这个项目然后列出所有待办事项,multi_tool
+先做任务分解再提取任务清单,multi_tool
+制定项目计划并把每项任务列出来,multi_tool
+开会记录后规划项目任务,multi_tool
+会议记录完帮我把项目任务分解一下,multi_tool
+把这份英文翻译后做成PPT,multi_tool
+先翻译再生成简报,multi_tool
+分析这张图片然后总结内容,multi_tool
+先识别图片内容再总结,multi_tool
+先查知识库然后总结答案,multi_tool
+问完知识库把答案总结成要点,multi_tool
+search my documents and summarize the findings,multi_tool
+查询知识库然后写封邮件汇报,multi_tool
+查完文档后写邮件,multi_tool
+先对比这两份文档然后总结差异,multi_tool
+比较两份合同的差异然后做成摘要,multi_tool
+综合多个来源的信息然后总结,multi_tool
+多源阅读之后做一个综合摘要,multi_tool
+read multiple sources and synthesize a report,multi_tool
+多源阅读之后生成PPT,multi_tool
+综合多个文件然后做简报,multi_tool
+开始番茄钟并在完成后提醒我,multi_tool
+番茄计时然后帮我记录完成的任务,multi_tool
+记录会议然后总结并生成思维导图还要提取待办然后添加到列表,multi_tool
+先调研这个行业然后写一份报告最后做PPT,multi_tool
+翻译这段话然后写邮件顺便把待办事项也列出来,multi_tool
+总结这篇文章然后画思维导图再做个PPT,multi_tool
+"record meeting, summarize, make mindmap, extract todos, and add to list",multi_tool
+记会议然后总结再生成思维导图最后提取待办并做任务规划,multi_tool
+调研AI行业，做竞品分析，然后做一个15页的PPT，最后写封汇报邮件,multi_tool
+先分析数据再生成图表然后做个简报总结,multi_tool
+开会记录，总结要点，画思维导图，列出待办，规划下周任务,multi_tool
+翻译文件，总结内容，然后写邮件汇报,multi_tool
+查知识库，做调研，然后生成PPT,multi_tool
+录会议，总结，画图，提取任务，写周报,multi_tool
+先多源阅读再对比分析然后生成综合报告,multi_tool
+翻译后总结再写邮件并提取待办,multi_tool
+调研市场，分析数据，画图表，生成PPT,multi_tool
+那个啥，先帮我录个会议呗，录完了之后要总结一下，然后搞个思维导图,multi_tool
+麻烦你帮我记录会议然后总结并生成脑图哈,multi_tool
+需要记录会议，也需要总结，还需要思维导图,multi_tool
+可以帮我先做A再做B最后做C吗,multi_tool
+帮我记录一下会议内容然后总结出关键点再生成思维导图,multi_tool
+translate this document and summarize the key findings,multi_tool
+把这段中文翻译成日语然后写一封日语邮件,multi_tool
+调研一下大语言模型的最新进展然后做一份20页的PPT,multi_tool
+先做数据分析再看看有什么规律最后画图表,multi_tool
+帮我分析销售数据然后生成可视化图表,multi_tool
+开会记录然后总结然后画脑图然后列任务,multi_tool
+总结一下这个文档然后画个思维导图,multi_tool
+上传表格先帮我分析再生成柱状图,multi_tool
+查知识库然后根据答案写邮件,multi_tool
+对比这两份文档找出差异然后总结成报告,multi_tool
+翻译这篇文章后用思维导图整理要点,multi_tool
+调研竞品分析市场然后写一份报告,multi_tool
+记笔记总结提取待办规划项目,multi_tool
+把这段英文翻译成中文然后总结然后写邮件,multi_tool
+把会议录下来把待办提出来把脑图画出来,multi_tool
+帮我分析excel数据然后画图然后再写一个报告,multi_tool
+先做任务规划再逐一列出待办事项,multi_tool
+读一下这几个文档然后综合信息再做PPT,multi_tool
+翻译文件然后总结要点最后写一封汇报邮件,multi_tool
+分析这图片然后总结然后写报告,multi_tool
+study this topic and create a mindmap and a presentation,multi_tool
+record meeting notes create a summary and a todo list,multi_tool
+analyze this spreadsheet generate a chart then write a report,multi_tool
+查文档找到答案然后写邮件通知团队,multi_tool
+先调研再数据洞察再图表最后PPT,multi_tool
+帮我做竞品分析然后做一个10页的科技风PPT最后写汇报邮件,multi_tool
+先翻译英文合同再对比两份合同的差异最后总结,multi_tool
+录音总结画图提取任务添加到待办列表规划时间,multi_tool
+research AI trends analyze data make charts and create a presentation,multi_tool
+translate summarize and email the report,multi_tool
+先看看这张图是什么然后总结下图片内容,multi_tool
+问知识库找到答案后写封邮件发给老板,multi_tool
+对比文件差异然后总结然后生成报告,multi_tool
+先做周报再从中提取待办事项,multi_tool
+规划项目任务然后每一项列成待办,multi_tool
+上传CSV分析数据然后画图然后写分析报告,multi_tool
+先翻译这篇文章然后做思维导图整理要点最后写邮件,multi_tool
+会议记录加总结加思维导图加待办提取,multi_tool
+翻译加写邮件,multi_tool
+调研加PPT加邮件汇报,multi_tool
+数据分析加图表生成加报告,multi_tool
+知识库问答加总结加邮件,multi_tool
+文档对比加总结加PPT,multi_tool
+pdf转word然后翻译,multi_tool
+先把PDF转成Word再翻译成英文,multi_tool
+提取PDF文字然后总结要点,multi_tool
+把这个文件转格式然后发给老板,multi_tool
+分析一下这段客户反馈的情感然后写回复邮件,multi_tool
+先做情感分析再根据结果写邮件,multi_tool
+分析评论情感然后总结报告,multi_tool
+定时每天生成周报并发送邮件,multi_tool
+每天早上去调研最新AI新闻然后做成PPT,multi_tool
+定时自动跑数据分析和图表生成,multi_tool
+提取文档关键信息然后做成表格,multi_tool
+先把报告转表格再生成图表,multi_tool
+从PDF提取数据然后画图分析,multi_tool
+把任务加到待办列表然后再规划,multi_tool
+先添加待办再做任务规划,multi_tool
+提取待办然后加到我的任务列表,multi_tool
+对比文档差异然后总结成邮件,multi_tool
+多源阅读后做思维导图和PPT,multi_tool
+查询知识库然后翻译答案再写邮件,multi_tool
+调研后提取表格数据再生成图表再写报告,multi_tool
+先记录会议然后提取待办然后添加到列表然后规划任务,multi_tool
+翻译文件然后转成PDF然后发给客户,multi_tool
+分析图片内容然后总结再翻译,multi_tool
+先做情感分析再提取关键信息再写报告,multi_tool
+定时调研行业动态然后生成PPT然后发邮件汇报,multi_tool
+convert pdf to word then translate,multi_tool
+analyze sentiment then write a reply email,multi_tool
+schedule daily report generation and email,multi_tool
+extract text from pdf then summarize then chart,multi_tool
+research then table then chart then email report,multi_tool
+meeting recording then todo extraction then add to list,multi_tool
+先做文件转换再做翻译最后发邮件,multi_tool
+把PDF提取文字后总结然后做思维导图,multi_tool
+分析这段文字的情感然后根据情感分类处理,multi_tool
+每天定时生成工作周报,multi_tool
+先提取表格数据再生成可视化图表,multi_tool
+从报告中提取关键信息然后做PPT汇报,multi_tool
+对比两份文档然后提取差异并写总结,multi_tool
+多源阅读后做综合报告然后生成图表,multi_tool
+查询知识库找到答案然后翻译成英文,multi_tool
+先图片分析再文字提取再情感判断,multi_tool
+定时自动调研然后生成报告图表和PPT,multi_tool
+把word文档转成PDF然后提取文字然后总结,multi_tool
+分析用户评论情感然后提取关键问题然后回复,multi_tool
+调研竞品数据然后生成对比表格然后画图,multi_tool
+记录线上会议然后做总结思维导图和待办列表,multi_tool
+多源阅读加思维导图加简报,multi_tool
