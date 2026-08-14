@@ -28,7 +28,7 @@ class SentimentRequest(BaseModel):
 
 
 @router.post("/analyze")
-async def analyze(req: SentimentRequest):
+def analyze(req: SentimentRequest):
     """分析单条或多条文本情感。"""
     _load()
     texts = req.texts if req.texts else [req.text] if req.text else []

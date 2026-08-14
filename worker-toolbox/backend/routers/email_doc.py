@@ -14,7 +14,7 @@ MODE_LABELS = {"email": "邮件", "official": "公文", "report": "报告", "not
 
 
 @router.post("/run")
-async def email_doc_run(req: LlmRequest, db: Session = Depends(get_db)):
+def email_doc_run(req: LlmRequest, db: Session = Depends(get_db)):
     mode = req.mode or "email"
     mode_label = MODE_LABELS.get(mode, mode)
     # Build a more detailed prompt so the LLM has context

@@ -4,6 +4,10 @@
 
 import os
 from dataclasses import dataclass, field
+from pathlib import Path
+
+# 项目根目录（ai-toolbox/），本地模型等资源统一从这里解析
+_PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 
 @dataclass
@@ -12,8 +16,12 @@ class Config:
     llm_model: str = field(default_factory=lambda: os.getenv("OPENAI_MODEL", "deepseek-chat"))
     llm_api_key: str = field(default_factory=lambda: os.getenv("OPENAI_API_KEY", ""))
     llm_base_url: str = field(default_factory=lambda: os.getenv("OPENAI_BASE_URL", ""))
-    llm_max_tokens: int = int(os.getenv("CLAUDE_MAX_TOKENS", "4096"))
+    llm_max_tokens: int = int(os.getenv("LLM_MAX_TOKENS", "4096"))
     llm_temperature: float = float(os.getenv("LLM_TEMPERATURE", "0.1"))
+
+    # ── 本地模型 ──
+    project_root: str = field(default_factory=lambda: str(_PROJECT_ROOT))
+    models_dir: str = field(default_factory=lambda: os.getenv("MODELS_DIR", str(_PROJECT_ROOT / "models")))
 
     # ── 数据库 ──
     db_url: str = field(default_factory=lambda: f"sqlite:///{os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'toolbox.db')}")

@@ -20,7 +20,7 @@ class LlmReq(BaseModel):
 
 
 @router.post("/run")
-async def ppt_outline_run(req: LlmReq):
+def ppt_outline_run(req: LlmReq):
     prompt = f"Topic: {req.text}"
     if req.extra_context:
         prompt += f"\n\nRequirements: {req.extra_context}"
@@ -141,7 +141,7 @@ def rgb_from_hex(hex_str: str) -> RGBColor:
 
 
 @router.post("/generate-pptx")
-async def generate_pptx(req: GeneratePptxRequest):
+def generate_pptx(req: GeneratePptxRequest):
     """根据大纲生成 PPTX 文件并下载。"""
     buffer = generate_pptx_bytes(req.outline, req.slide_count)
     return StreamingResponse(
@@ -295,7 +295,7 @@ def _is_dark_color(hex_color: str) -> bool:
 
 
 @router.post("/generate-html")
-async def generate_html(req: GenerateHtmlRequest):
+def generate_html(req: GenerateHtmlRequest):
     """根据大纲生成 reveal.js HTML 演示文稿。"""
     html = generate_html_string(req.outline)
     buffer = BytesIO(html.encode('utf-8'))

@@ -16,7 +16,7 @@ router = APIRouter(prefix="/api/deep-research", tags=["deep-research"])
 
 
 @router.post("/research")
-async def deep_research_run(req: dict, db: Session = Depends(get_db)):
+def deep_research_run(req: dict, db: Session = Depends(get_db)):
     """执行深度调研。输入 {"topic": "..."}"""
     topic = req.get("topic", "")
     if not topic:

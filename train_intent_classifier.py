@@ -5,6 +5,7 @@ PyTorch + DistilBERT 意图分类器 — 从 CSV 读取训练数据
 """
 import sys
 import csv
+from pathlib import Path
 import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification, get_scheduler
@@ -12,7 +13,9 @@ from torch.optim import AdamW
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 
-CSV_PATH = sys.argv[1] if len(sys.argv) > 1 else 'training_data.csv'
+SCRIPT_DIR = Path(__file__).resolve().parent
+CSV_PATH = sys.argv[1] if len(sys.argv) > 1 else str(SCRIPT_DIR / 'training_data.csv')
+SAVE_PATH = str(SCRIPT_DIR / 'models' / 'intent_classifier')
 
 # ═══════════ 从 CSV 读取数据 ═══════════
 texts, raw_labels = [], []
@@ -93,12 +96,11 @@ print(f'\n✅ 测试准确率: {acc:.2%}')
 print(classification_report(all_labels, all_preds, target_names=LABELS))
 
 # ═══════════ 保存 ═══════════
-SAVE_PATH = '/Users/shijingying/my-ml-project/models/intent_classifier'
 MODEL.save_pretrained(SAVE_PATH)
 TOKENIZER.save_pretrained(SAVE_PATH)
 
 # ═══════════ 导出 LABELS 给 Python 服务使用 ═══════════
-with open('/Users/shijingying/my-ml-project/models/intent_classifier/labels.txt', 'w') as f:
+with open(Path(SAVE_PATH) / 'labels.txt', 'w') as f:
     f.write('\n'.join(LABELS))
 print(f'\n模型已保存: {SAVE_PATH}')
 print(f'类别标签已保存: labels.txt')

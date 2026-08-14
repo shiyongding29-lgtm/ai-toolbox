@@ -1,5 +1,6 @@
 """Multi-Tool Detector — 判断用户是否需要多步骤工作流。二分类：single_tool vs multi_tool"""
 import csv
+from pathlib import Path
 import torch
 from torch.utils.data import Dataset, DataLoader
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification, get_scheduler
@@ -7,7 +8,9 @@ from torch.optim import AdamW
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 
-CSV_PATH = 'training_data_multitool.csv'
+SCRIPT_DIR = Path(__file__).resolve().parent
+CSV_PATH = str(SCRIPT_DIR / 'training_data_multitool.csv')
+SAVE = str(SCRIPT_DIR / 'models' / 'multitool_classifier')
 LABELS = ['single_tool', 'multi_tool']
 
 # 读取数据
@@ -70,6 +73,5 @@ with torch.no_grad():
 print(f'\n准确率: {accuracy_score(trues, preds):.2%}')
 print(classification_report(trues, preds, target_names=LABELS))
 
-SAVE = '/Users/shijingying/my-ml-project/models/multitool_classifier'
 MODEL.save_pretrained(SAVE); TOKENIZER.save_pretrained(SAVE)
 print(f'已保存: {SAVE}')

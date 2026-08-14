@@ -50,6 +50,8 @@
 | 用途 | 兜底意图解析 + 工作流自动生成 |
 | 配置 | `worker-toolbox/.env` |
 
+> 本地模型默认从 `<repo>/models/` 自动加载；如需自定义位置，设置环境变量 `MODELS_DIR`。
+
 ---
 
 ## 🔄 AI Assistant 推理流程
@@ -117,7 +119,7 @@ ai-toolbox/
 
 ```bash
 # 后端
-pip install torch transformers scikit-learn fastapi uvicorn sqlalchemy
+pip install -r worker-toolbox/backend/requirements.txt
 
 # 前端
 cd worker-toolbox/frontend && npm install
@@ -127,7 +129,7 @@ cd worker-toolbox/frontend && npm install
 
 ```bash
 cd worker-toolbox
-cp .env.example .env  # 填入 OPENAI_API_KEY
+cp .env.example .env  # 填入 OPENAI_API_KEY（默认走 DeepSeek，也可换成任意 OpenAI 兼容接口）
 ```
 
 ### 3. 启动

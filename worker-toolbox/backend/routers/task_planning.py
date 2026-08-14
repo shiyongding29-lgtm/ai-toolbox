@@ -11,7 +11,7 @@ router = APIRouter(prefix="/api/task-planning", tags=["task-planning"])
 
 
 @router.post("/plan")
-async def task_planning_run(req: dict, db: Session = Depends(get_db)):
+def task_planning_run(req: dict, db: Session = Depends(get_db)):
     """智能任务分解。输入 {"tasks": "...", "constraints": "5天内完成"}"""
     tasks = req.get("tasks", "")
     constraints = req.get("constraints", "无")

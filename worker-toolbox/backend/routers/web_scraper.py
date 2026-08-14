@@ -12,7 +12,7 @@ class ScrapeRequest(BaseModel):
 
 
 @router.post("/scrape")
-async def scrape(req: ScrapeRequest):
+def scrape(req: ScrapeRequest):
     urls = req.urls if req.urls else [req.url] if req.url else []
     if not urls: return {"code": 400, "msg": "No URL provided", "data": None}
 

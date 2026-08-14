@@ -114,8 +114,8 @@ class LLMService:
         return ""
 
     async def complete_async(self, system_prompt: str, user_message: str) -> str:
-        loop = asyncio.get_event_loop()
-        return await loop.run_in_executor(None, self.complete, system_prompt, user_message)
+        """在线程池中执行同步 complete，避免阻塞事件循环。"""
+        return await asyncio.to_thread(self.complete, system_prompt, user_message)
 
     async def stream(self, system_prompt: str, user_message: str) -> AsyncGenerator[str, None]:
         """流式输出。如果 LLM 不可用，yield 错误信息并结束。"""

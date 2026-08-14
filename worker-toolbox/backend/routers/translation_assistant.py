@@ -36,7 +36,7 @@ MODE_PREFIXES = {
 
 
 @router.post("/run")
-async def translation_run(req: LlmRequest, db: Session = Depends(get_db)):
+def translation_run(req: LlmRequest, db: Session = Depends(get_db)):
     mode = req.mode or "translate_zh_en"
     mode_label = MODE_LABELS.get(mode, mode)
     user_prefix = MODE_PREFIXES.get(mode, "")

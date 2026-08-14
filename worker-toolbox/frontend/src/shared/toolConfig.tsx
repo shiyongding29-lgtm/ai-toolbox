@@ -18,6 +18,9 @@ export const TOOL_LABELS: Record<string, string> = {
   'spreadsheet': 'Spreadsheet 表格', 'pomodoro': 'Pomodoro 番茄',
   'todos': 'Todo List 待辦', 'history': 'History 歷史',
   'image-analyzer': 'Image Analyzer 圖片分析', 'chart-generator': 'Chart Generator 圖表生成',
+  'table-generator': 'Table Generator 表格生成', 'pdf-toolkit': 'PDF Toolkit PDF工具', 'sentiment-analyzer': 'Sentiment 情感分析',
+  'file-converter': 'File Converter 文件轉換', 'web-scraper': 'Web Scraper 網頁抓取', 'qr-generator': 'QR Generator 二維碼',
+  'workflow': 'AI Workflow 智能工作流', 'robot': 'My Robot 我的機器人',
 }
 
 export const TOOL_COLORS: Record<string, string> = {
@@ -28,4 +31,7 @@ export const TOOL_COLORS: Record<string, string> = {
   'data-analysis': '#3b5ccc', 'multi-source-reader': '#65a30d', 'mindmap': '#ec4899',
   'spreadsheet': '#22c55e', 'pomodoro': '#f43f5e', 'todos': '#10b981', 'history': '#f59e0b',
   'image-analyzer': '#ec4899', 'chart-generator': '#22c55e',
+  'table-generator': '#3b82f6', 'pdf-toolkit': '#ef4444', 'sentiment-analyzer': '#8b5cf6',
+  'file-converter': '#6366f1', 'web-scraper': '#f97316', 'qr-generator': '#6366f1',
+  'workflow': '#00e5ff', 'robot': '#7c3aed',
 }

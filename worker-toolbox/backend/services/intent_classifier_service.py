@@ -6,7 +6,9 @@ import os
 import torch
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
 
-MODEL_PATH = '/Users/shijingying/my-ml-project/models/intent_classifier'
+from backend.config import config
+
+MODEL_PATH = os.path.join(config.models_dir, 'intent_classifier')
 
 # 自动从 labels.txt 加载类别标签（训练脚本自动生成）
 _labels_path = os.path.join(MODEL_PATH, 'labels.txt')

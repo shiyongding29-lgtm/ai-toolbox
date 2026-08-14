@@ -64,7 +64,7 @@ def _build_weekly_data(db: Session, week_start: str, week_end: str) -> str:
 
 
 @router.post("/run")
-async def weekly_report_run(req: LlmRequest, db: Session = Depends(get_db)):
+def weekly_report_run(req: LlmRequest, db: Session = Depends(get_db)):
     result = llm_service.complete(WEEKLY_REPORT_SYSTEM, req.text)
     history_id = save_history(db, "weekly-report", f"周报: {req.text[:50]}", req.text, result)
 
@@ -85,7 +85,7 @@ async def weekly_report_run(req: LlmRequest, db: Session = Depends(get_db)):
 
 
 @router.post("/auto")
-async def auto_generate_weekly(db: Session = Depends(get_db)):
+def auto_generate_weekly(db: Session = Depends(get_db)):
     """基于本周历史记录和待办事项自动生成周报。"""
     monday, sunday = _get_week_range(0)
     week_start = monday.strftime("%Y-%m-%d")
@@ -115,7 +115,7 @@ async def auto_generate_weekly(db: Session = Depends(get_db)):
 
 
 @router.get("/list")
-async def list_weekly_reports(db: Session = Depends(get_db)):
+def list_weekly_reports(db: Session = Depends(get_db)):
     """获取历史周报列表。"""
     reports = db.query(WeeklyReport).order_by(desc(WeeklyReport.created_at)).limit(20).all()
     return {

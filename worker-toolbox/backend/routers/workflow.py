@@ -5,6 +5,7 @@ import json
 import os
 import tempfile
 import time
+import asyncio
 from fastapi import APIRouter, UploadFile, File
 from pydantic import BaseModel, Field
 
@@ -27,7 +28,7 @@ class RunRequest(BaseModel):
 
 
 @router.post("/plan")
-async def workflow_plan(req: PlanRequest):
+def workflow_plan(req: PlanRequest):
     """AI 分析用户需求，生成工作流计划（nodes + edges）。"""
     plan = plan_workflow(req.text)
     if "error" in plan:
@@ -36,7 +37,7 @@ async def workflow_plan(req: PlanRequest):
 
 
 @router.post("/run")
-async def workflow_run(req: RunRequest):
+def workflow_run(req: RunRequest):
     """根据 plan 执行工作流。"""
     plan = req.plan
     user_input = req.input
@@ -47,7 +48,7 @@ async def workflow_run(req: RunRequest):
 
 
 @router.get("/status/{workflow_id}")
-async def workflow_status(workflow_id: str):
+def workflow_status(workflow_id: str):
     """查询工作流执行进度。"""
     data = get_workflow_status(workflow_id)
     if not data:
@@ -56,7 +57,7 @@ async def workflow_status(workflow_id: str):
 
 
 @router.post("/plan-and-run")
-async def workflow_plan_and_run(req: PlanRequest):
+def workflow_plan_and_run(req: PlanRequest):
     """一键：AI 分析需求 → 生成工作流 → 执行。"""
     # 1. AI 规划
     plan = plan_workflow(req.text)
@@ -76,13 +77,13 @@ async def workflow_plan_and_run(req: PlanRequest):
 
 
 @router.get("/tools")
-async def list_tools():
+def list_tools():
     """返回所有可用工具定义，供前端可视化工作流构建器使用。"""
     return {"code": 0, "msg": "ok", "data": TOOLS}
 
 
 @router.get("/tools/{tool_id}")
-async def get_tool(tool_id: str):
+def get_tool(tool_id: str):
     """获取单个工具定义。"""
     tool = TOOLS_BY_ID.get(tool_id)
     if not tool:
@@ -100,7 +101,7 @@ async def workflow_plan_and_run_with_audio(file: UploadFile = File(...), descrip
         tmp_path = tmp.name
 
     try:
-        segments = transcribe_audio(tmp_path)
+        segments = await asyncio.to_thread(transcribe_audio, tmp_path)
         transcript = segments_to_text(segments)
     finally:
         os.unlink(tmp_path)
@@ -110,7 +111,7 @@ async def workflow_plan_and_run_with_audio(file: UploadFile = File(...), descrip
 
     # 如果有用户描述，让 AI 根据描述来规划
     if description:
-        plan = plan_workflow(f"{description}\n\n会议转录内容：{transcript}")
+        plan = await asyncio.to_thread(plan_workflow, f"{description}\n\n会议转录内容：{transcript}")
         if "error" in plan:
             # 降级到默认流程
             plan = {

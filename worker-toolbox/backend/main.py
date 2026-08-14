@@ -3,6 +3,8 @@
 FastAPI 应用创建、CORS、Router 注册、静态文件挂载。
 """
 
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -13,17 +15,26 @@ from backend.database import engine, Base
 
 
 def create_app() -> FastAPI:
+    @asynccontextmanager
+    async def lifespan(_app: FastAPI):
+        """启动时创建数据库表。"""
+        Base.metadata.create_all(bind=engine)
+        print("数据库表已创建。DB 就绪")
+        yield
+
     app = FastAPI(
         title="AI Toolbox API",
         version="0.1.0",
         description="AI Toolbox — AI-powered productivity tools",
+        lifespan=lifespan,
     )
 
-    # CORS
+    # CORS — allow_origins=["*"] 与 allow_credentials=True 是无效组合（浏览器会拒绝）
+    cors_origins = [o.strip() for o in os.getenv("CORS_ORIGINS", "").split(",") if o.strip()] or ["*"]
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["*"],
-        allow_credentials=True,
+        allow_origins=cors_origins,
+        allow_credentials=False,
         allow_methods=["*"],
         allow_headers=["*"],
     )
@@ -101,13 +112,6 @@ def create_app() -> FastAPI:
 
 
 app = create_app()
-
-
-@app.on_event("startup")
-async def startup():
-    """启动时创建数据库表。"""
-    Base.metadata.create_all(bind=engine)
-    print(f"数据库表已创建。DB 就绪")
 
 
 @app.get("/api/health")

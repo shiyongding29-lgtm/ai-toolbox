@@ -1,8 +1,11 @@
 """Multi-Tool Detector — 判断用户请求是单步骤还是多步骤工作流。"""
+import os
 import torch
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
 
-MODEL_PATH = '/Users/shijingying/my-ml-project/models/multitool_classifier'
+from backend.config import config
+
+MODEL_PATH = os.path.join(config.models_dir, 'multitool_classifier')
 _MODEL = None
 _TOKENIZER = None
 _DEVICE = None

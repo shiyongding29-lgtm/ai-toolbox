@@ -32,8 +32,11 @@ Return ONLY valid JSON, no markdown, no explanation:
 
 
 import json
+import logging
 import re
 from datetime import date, timedelta
+
+logger = logging.getLogger(__name__)
 
 
 def _next_weekday(n: int):
@@ -79,10 +82,13 @@ def _deduplicate_workflow(plan: dict) -> dict:
 
 
 @router.post("/parse-intent")
-async def parse_intent(req: dict):
+def parse_intent(req: dict):
     text = req.get("text", "")
     if not text:
         return {"code": 400, "msg": "Missing text", "data": None}
+
+    # 相对日期上下文（本地正则提取 + LLM 兜底共用）
+    today = date.today()
 
     # ── 先用本地模型系列 ──
     try:
@@ -109,7 +115,7 @@ async def parse_intent(req: dict):
                         }
                     }
             except Exception:
-                pass  # workflow生成失败，继续走单tool
+                logger.exception("多步骤工作流生成失败，回退到单工具分类")
 
         # ② 单意图分类
         local_result = local_predict(text)
@@ -170,11 +176,9 @@ async def parse_intent(req: dict):
                 }
             }
     except Exception:
-        pass  # 本地模型挂了，回退到 LLM
+        logger.exception("本地意图分类失败，回退到 LLM")
 
     # ── 回退：用 LLM 解析 ──
-    today = date.today()
-    # Build context with today and next few relative dates
     tomorrow = (today + timedelta(days=1)).isoformat()
     day_after = (today + timedelta(days=2)).isoformat()
 

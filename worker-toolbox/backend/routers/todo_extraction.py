@@ -40,7 +40,7 @@ PRIORITY_MAP = {"high": 1, "medium": 2, "low": 3, "高": 1, "中": 2, "低": 3}
 
 
 @router.post("/run")
-async def todo_extraction_run(req: LlmRequest, db: Session = Depends(get_db)):
+def todo_extraction_run(req: LlmRequest, db: Session = Depends(get_db)):
     try:
         result = llm_service.complete(TODO_EXTRACTION_SYSTEM, req.text)
     except LLMError as e:
